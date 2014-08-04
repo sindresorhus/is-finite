@@ -1,0 +1,37 @@
+{
+  "name": "is-finite",
+  "version": "0.0.0",
+  "description": "ES6 Number.isFinite() ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/is-finite",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "es6",
+    "ecmascript",
+    "harmony",
+    "ponyfill",
+    "prollyfill",
+    "polyfill",
+    "shim",
+    "browser",
+    "number",
+    "finite",
+    "is"
+  ],
+  "devDependencies": {
+    "ava": "0.0.3"
+  }
+}
