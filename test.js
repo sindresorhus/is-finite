@@ -1,5 +1,6 @@
 'use strict';
 var test = require('ava');
+Number.isFinite = undefined;
 var numIsFinite = require('./');
 
 test(function (t) {
