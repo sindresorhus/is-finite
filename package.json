@@ -7,7 +7,7 @@
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "sindresorhus.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -23,15 +23,16 @@
     "ecmascript",
     "harmony",
     "ponyfill",
-    "prollyfill",
     "polyfill",
     "shim",
-    "browser",
     "number",
     "finite",
     "is"
   ],
+  "dependencies": {
+    "number-is-nan": "^1.0.0"
+  },
   "devDependencies": {
-    "ava": "0.0.3"
+    "ava": "0.0.4"
   }
 }

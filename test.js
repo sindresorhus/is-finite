@@ -13,4 +13,5 @@ test(function (t) {
 	t.assert(!numIsFinite(undefined));
 	t.assert(!numIsFinite(Infinity));
 	t.assert(!numIsFinite(-Infinity));
+	t.end();
 });
