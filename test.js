@@ -1,17 +1,16 @@
-'use strict';
-var test = require('ava');
-Number.isFinite = undefined;
-var numIsFinite = require('./');
+import test from 'ava';
 
-test(function (t) {
-	t.assert(numIsFinite(0));
-	t.assert(numIsFinite(100));
-	t.assert(numIsFinite(-100));
-	t.assert(numIsFinite(4e44));
-	t.assert(!numIsFinite('0'));
-	t.assert(!numIsFinite(NaN));
-	t.assert(!numIsFinite(undefined));
-	t.assert(!numIsFinite(Infinity));
-	t.assert(!numIsFinite(-Infinity));
-	t.end();
+Number.isFinite = undefined;
+const m = require('./');
+
+test(t => {
+	t.true(m(0));
+	t.true(m(100));
+	t.true(m(-100));
+	t.true(m(4e44));
+	t.false(m('0'));
+	t.false(m(NaN));
+	t.false(m(undefined));
+	t.false(m(Infinity));
+	t.false(m(-Infinity));
 });
