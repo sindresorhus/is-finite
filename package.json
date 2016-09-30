@@ -1,6 +1,6 @@
 {
   "name": "is-finite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES2015 Number.isFinite() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/is-finite",
