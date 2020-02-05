@@ -26,5 +26,8 @@
   ],
   "dependencies": {
     "number-is-nan": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.2.0"
   }
 }
