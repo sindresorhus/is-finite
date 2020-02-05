@@ -24,9 +24,7 @@
     "finite",
     "is"
   ],
-  "dependencies": {
-    "number-is-nan": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^3.2.0"
   },
