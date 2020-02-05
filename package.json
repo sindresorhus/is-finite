@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "ava": "^3.2.0"
+  },
+  "scripts": {
+    "test": "ava"
   }
 }
