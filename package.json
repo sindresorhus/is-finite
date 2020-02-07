@@ -24,7 +24,6 @@
     "finite",
     "is"
   ],
-  "dependencies": {},
   "devDependencies": {
     "ava": "^3.2.0"
   },
