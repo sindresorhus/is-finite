@@ -2,13 +2,11 @@
 
 > ES2015 [`Number.isFinite()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite) [ponyfill](https://ponyfill.com)
 
-
 ## Install
 
-```sh
-$ npm install --save is-finite
 ```
-
+$ npm install is-finite
+```
 
 ## Usage
 
@@ -21,7 +19,6 @@ numIsFinite(4);
 numIsFinite(Infinity);
 //=> false
 ```
-
 
 ---
 
