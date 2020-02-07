@@ -1,9 +1,8 @@
-import test from 'ava';
-
+const test = require('ava');
 Number.isFinite = undefined;
 const m = require('./');
 
-test(t => {
+test('main', t => {
 	t.true(m(0));
 	t.true(m(100));
 	t.true(m(-100));
